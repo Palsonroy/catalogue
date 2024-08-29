@@ -43,12 +43,11 @@
                     """
                 }
             }
-            stage('Example Deploy') {
-                when {
-                    branch 'production'
-                }
+            stage('Build') {
                 steps {
-                    echo 'Deploying'
+                    sh """
+                        ls -la
+                    """
                 }
             }
             stage('greeting') {
