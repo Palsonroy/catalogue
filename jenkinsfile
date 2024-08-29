@@ -35,6 +35,14 @@
                     }
                 }
             }
+            //npm install to install dependencies
+             stage('install dependencies') {
+                steps {
+                    sh """
+                        npm install
+                    """
+                }
+            }
             stage('Example Deploy') {
                 when {
                     branch 'production'
