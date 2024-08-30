@@ -7,7 +7,7 @@
     }
     environment { 
             packageVersion = ''
-            nexusUrl = '172.31.80.240'
+            nexusUrl = '172.31.80.240:8081'
         }
     options {
         // Timeout counter starts AFTER agent is allocated
