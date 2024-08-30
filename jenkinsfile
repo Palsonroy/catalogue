@@ -72,14 +72,14 @@
                          )
                 }
             }
-            stage('Deploy') {
-                steps {
-                    sh """
-                        echo "Here i wrote shell script
+            // stage('Deploy') {
+            //     steps {
+            //         sh """
+            //             echo "Here i wrote shell script
 
-                    """
-                }
-            }
+            //         """
+            //     }
+            // }
         //     stage('Example') {
         //         steps {
         //              sh """
